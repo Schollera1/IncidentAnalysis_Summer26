@@ -8,8 +8,7 @@ Use the following command to install the necessary packages.
 pip install pandas numpy scipy matplotlib openpyxl lifelines
 ```
 ## Getting the data
-You need XO_incidents_RCA_merchants.xlsx. Put it in the same folder as p2_incident_statistics.py, or pass a path into load_data() if you want to keep it somewhere else.
-The sheet the code read is called "Data - Updated." Once it's loaded, the code splits it into two groups automatically:
+You need XO_incidents_RCA_merchants.xlsx. The sheet the code read is called "Data - Updated." Place the code into the folder you have.
 
 ## Running
 Use the following command:
@@ -24,8 +23,9 @@ Each function has a short comment above it saying what statistical test it uses 
 ## Repo Layout
 - p2_incident_statistics.py
 - README_statistics.md
-- you'll need to supply XO_incidents_RCA_merchants.xlsx yourself, it isn't included here
 - Archive: Old BERT model code to read tickets
+
+- NOTE: You will need to supply XO_incidents_RCA_merchants.xlsx and place it in the same folder
 
 ## Hardcoded Metrics notes
 Nothing is hardcoded except the sample date window and the Feb-Apr 2025 spike window in spike(), both of which are tied to specific historical periods and shouldn't need to change unless a stakeholder asks for a different window to be analyzed. The excel workbook's name and sheet's name is also hardcoded.
