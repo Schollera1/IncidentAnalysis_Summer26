@@ -5,7 +5,7 @@ This is the code behind the charts and stats used in the P2 checkout incident re
 Ensure Python is of current version.
 Use the following command to install the necessary packages.
 ```
-pip install pandas numpy scipy matplotlib openpyxl lifelines
+pip3 install pandas numpy scipy matplotlib openpyxl lifelines
 ```
 ## Getting the data
 You need XO_incidents_RCA_merchants.xlsx. The sheet the code read is called "Data - Updated." Place the code into the folder you have.
