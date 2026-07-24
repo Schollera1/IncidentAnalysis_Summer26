@@ -13,7 +13,7 @@ You need XO_incidents_RCA_merchants.xlsx. The sheet the code read is called "Dat
 ## Running
 Use the following command:
 ```
-python p2_incident_statistics.py
+python3 incidentanalysisstats.py
 ```
 This loads the data and prints statistics from the analysis to your terminal. You will also receive the necessary charts as a PNG file, labelled sequentially, saved to the same folder you have the code/excel sheet in.
 
@@ -21,7 +21,7 @@ This loads the data and prints statistics from the analysis to your terminal. Yo
 Each function has a short comment above it saying what statistical test it uses (if any), what it assumes, and relevancy. Most of these tests are descriptive statistics and not complex tests (e.g., median/mode/mean/counts)
 
 ## Repo Layout
-- p2_incident_statistics.py
+- incidentanalysisstats.py
 - README_statistics.md
 - Archive: Old BERT model code to read tickets
 
